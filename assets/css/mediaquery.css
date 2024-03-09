@@ -1,0 +1,136 @@
+/* hero-section */
+
+@media (max-width: 991px) {
+  .hero-section .hero-item img {
+    display: none;
+  }
+
+  .header .header-btn {
+    display: none;
+  }
+
+  .header .nav-link::after {
+    width: 100%;
+    height: 1px;
+  }
+}
+
+/* event-section */
+
+/* testimonial-section */
+
+@media screen and (min-width: 1400px) and (max-width: 1920px) {
+  .testimonial-section .owl-thumbs .owl-thumb-item:nth-child(1) {
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 45px;
+  }
+
+  .testimonial-section .owl-thumbs .owl-thumb-item:nth-child(2) {
+    position: absolute;
+    top: 49%;
+    left: 40px;
+  }
+
+  .testimonial-section .owl-thumbs .owl-thumb-item:nth-child(3) {
+    position: absolute;
+    top: 120px;
+    bottom: 0;
+    left: 28%;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .testimonial-section .owl-thumbs .owl-thumb-item:nth-child(1) {
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: -30px;
+  }
+
+  .testimonial-section .owl-thumbs .owl-thumb-item:nth-child(2) {
+    position: absolute;
+    top: 55%;
+    left: 20px;
+  }
+
+  .testimonial-section .owl-thumbs .owl-thumb-item:nth-child(3) {
+    position: absolute;
+    top: 120px;
+    bottom: 0;
+    left: 30%;
+  }
+}
+
+@media (max-width: 992px) {
+  .testimonial-section .owl-thumbs .owl-thumb-item {
+    position: unset;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .testimonial-section .testimonial-item {
+    margin: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .testimonial-section .testimonial-item {
+    margin: 50px 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .testimonial-section .testimonial-item .testimonial-image::before {
+    width: 300px;
+    height: 300px;
+  }
+
+  .testimonial-section .testimonial-item i {
+    left: 85%;
+    font-size: 50px;
+  }
+
+  .testimonial-section .testimonial-item .testimonial-content span {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .funfact-section .funfact-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero-section .hero-item h2 {
+    font-size: 30px;
+    padding-top: 0;
+  }
+
+  .testimonial-section .testimonial-item .testimonial-content h2,
+  .testimonial-section .testimonial-item .testimonial-content .color {
+    font-size: 25px;
+  }
+
+  .hero-section .hero-item button {
+    display: inline-block;
+    padding: 10px 20px;
+  }
+
+  .heading h2 {
+    font-size: 25px !important;
+  }
+
+  .heading .color {
+    font-size: 25px !important;
+  }
+
+  .heading span {
+    font-size: 16px !important;
+  }
+}
