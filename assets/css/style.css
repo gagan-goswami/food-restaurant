@@ -5,6 +5,10 @@
   --white: #ffffff;
 }
 
+* {
+  font-family: "poppins";
+}
+
 a {
   color: var(--primary-color);
 }
@@ -39,7 +43,6 @@ a {
   color: var(--primary-color);
   font-size: 34px;
   font-weight: 700;
-  font-family: cursive;
 }
 
 .header .nav-link {
@@ -174,9 +177,9 @@ a {
 }
 
 .hero-section .hero-item h2 {
-  font-size: 50px;
+  font-size: 54px;
   color: var(--secondary-color);
-  font-family: cursive;
+
   font-weight: 600;
   padding-top: 20px;
   text-transform: capitalize;
@@ -261,18 +264,17 @@ a {
 }
 
 .about-section .heading h2 {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--secondary-color);
   font-weight: 600;
-  font-family: cursive;
+
   padding-top: 5px;
 }
 
 .about-section .heading .color {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--primary-color);
   font-weight: 600;
-  font-family: cursive;
 }
 
 .about-section .about-item img {
@@ -394,18 +396,17 @@ a {
 }
 
 .why-choose-us-section .heading h2 {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--secondary-color);
   font-weight: 600;
-  font-family: cursive;
+
   padding-top: 5px;
 }
 
 .why-choose-us-section .heading .color {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--primary-color);
   font-weight: 600;
-  font-family: cursive;
 }
 
 .why-choose-us-section .why-choose-item span {
@@ -500,7 +501,7 @@ a {
 /*===================================*/
 
 .funfact-section {
-  background-image: url(../images/funfact-bg.jpg);
+  background-image: url(../images/stats-bg.jpg);
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -561,18 +562,16 @@ a {
 }
 
 .menu-section .heading h2 {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--secondary-color);
   font-weight: 600;
-  font-family: cursive;
   padding-top: 5px;
 }
 
 .menu-section .heading .color {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--primary-color);
   font-weight: 600;
-  font-family: cursive;
 }
 
 .menu-section .tab-filter {
@@ -703,19 +702,17 @@ a {
 }
 
 .testimonial-section .testimonial-item .testimonial-content h2 {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--secondary-color);
   font-weight: 600;
-  font-family: cursive;
   padding-top: 5px;
   text-transform: capitalize;
 }
 
 .testimonial-section .testimonial-item .testimonial-content .color {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--primary-color);
   font-weight: 600;
-  font-family: cursive;
 }
 
 .testimonial-section .testimonial-item .testimonial-content p {
@@ -852,19 +849,17 @@ a {
 }
 
 .event-section .heading h2 {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--secondary-color);
   font-weight: 600;
-  font-family: cursive;
   padding-top: 5px;
   text-transform: capitalize;
 }
 
 .event-section .heading .color {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--primary-color);
   font-weight: 600;
-  font-family: cursive;
 }
 
 .event-section .event-item {
@@ -974,19 +969,17 @@ a {
 }
 
 .team-section .heading h2 {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--secondary-color);
   font-weight: 600;
-  font-family: cursive;
   padding-top: 5px;
   text-transform: capitalize;
 }
 
 .team-section .heading .color {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--primary-color);
   font-weight: 600;
-  font-family: cursive;
 }
 
 .team-section .team-item {
@@ -1001,18 +994,6 @@ a {
   position: relative;
   overflow: hidden;
 }
-
-/* .team-section .team-item .card-content::before {
-  content: "";
-  position: absolute;
-  clip-path: polygon(0 46%, 100% 72%, 100% 100%, 0% 100%);
-  background-color: var(--white);
-  top: -150px;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  height: 200px;
-} */
 
 .team-section .team-item .card-content::after {
   content: "";
@@ -1086,19 +1067,17 @@ a {
 }
 
 .form-section .heading h2 {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--secondary-color);
   font-weight: 600;
-  font-family: cursive;
   padding-top: 5px;
   text-transform: capitalize;
 }
 
 .form-section .heading .color {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--primary-color);
   font-weight: 600;
-  font-family: cursive;
 }
 
 .form-section .form {
@@ -1256,19 +1235,17 @@ a {
 }
 
 .gallery-section .heading h2 {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--secondary-color);
   font-weight: 600;
-  font-family: cursive;
   padding-top: 5px;
   text-transform: capitalize;
 }
 
 .gallery-section .heading .color {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--primary-color);
   font-weight: 600;
-  font-family: cursive;
 }
 
 .gallery-section .gallery-image {
@@ -1342,19 +1319,17 @@ a {
 }
 
 .contact-section .heading h2 {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--secondary-color);
   font-weight: 600;
-  font-family: cursive;
   padding-top: 5px;
   text-transform: capitalize;
 }
 
 .contact-section .heading .color {
-  font-size: 30px;
+  font-size: 36px;
   color: var(--primary-color);
   font-weight: 600;
-  font-family: cursive;
 }
 
 .contact-section .map {
