@@ -114,18 +114,22 @@ a {
 
 .header .navbar-toggler {
   background-color: var(--primary-color);
-  padding: 5px;
-  margin: 0;
+  padding: 5px 10px;
+  margin: 0px 10px;
   color: var(--white);
   line-height: 27px;
   text-align: center;
+}
+
+.header .navbar-toggler:focus {
+  box-shadow: none;
 }
 
 .header .navbar-toggler-icon {
   color: var(--white);
 }
 
-.header button {
+.header .contact-btn {
   display: inline-block;
   border: none;
   background-color: var(--dark);
@@ -138,7 +142,7 @@ a {
   border-radius: 5px;
 }
 
-.header button::before {
+.header .contact-btn::before {
   content: "";
   position: absolute;
   left: 0;
@@ -153,18 +157,33 @@ a {
   border-radius: 5px;
 }
 
-.header button:hover::before {
+.header .contact-btn:hover::before {
   transform: translateX(0);
   opacity: 1;
 }
 
-.header button.active {
+.header .contact-btn.active {
   background-color: var(--primary-color);
   color: var(--white);
 }
 
-.header button:hover {
+.header .contact-btn:hover {
   color: var(--white);
+}
+
+.header .btn-close {
+  background-color: var(--primary-color);
+  color: var(--white);
+  opacity: 1;
+}
+
+.header .btn-close:focus {
+  box-shadow: none;
+  opacity: 2;
+}
+
+.header .offcanvas-header {
+  background-color: var(--dark);
 }
 
 /*============================*/
