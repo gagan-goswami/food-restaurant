@@ -356,6 +356,7 @@ a {
   0% {
     box-shadow: 0 0 0 0 #ce1212;
   }
+
   100% {
     box-shadow: 0 0 0 50px #ce1212;
     opacity: 0;
@@ -393,6 +394,7 @@ a {
   left: 0;
   height: 300px;
 }
+
 /*===================================*/
 /*======= why-choose-us-section =====*/
 /*===================================*/
@@ -547,16 +549,15 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: justify;
 }
 
 .funfact-section .funfact-item span {
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 700;
 }
 
 .funfact-section .funfact-item h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -1557,23 +1558,23 @@ a {
 .footer .Copyright p {
   text-align: center;
   color: var(--white);
-  font-size: 16px;
+  font-size: 14px;
   padding-top: 20px;
   margin: 0;
 }
 
 .footer .top-button .top {
   background-color: var(--primary-color);
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border: none;
-  border-radius: 50%;
+  border-radius: 5px;
   color: white;
   right: 1em;
-  bottom: 2em;
+  bottom: 0.2em;
   position: fixed;
-  font-size: 25px;
-  line-height: 50px;
+  font-size: 18px;
+  line-height: 40px;
   text-align: center;
   z-index: 9999;
   margin-bottom: 10px;
